@@ -25,8 +25,6 @@ The central bank cuts rates by 25bp.
 Consumer confidence remains weak.
 Exports begin to decline amid global slowdown.
 
-yaml
-コードをコピーする
 
 ---
 
@@ -50,8 +48,6 @@ Liquidity trap possible if LM is flat
 
 Crowding-in unlikely due to private sector pessimism
 
-yaml
-コードをコピーする
 
 ---
 
@@ -64,3 +60,4 @@ yaml
 ## 📎 Compatibility:
 - GPT-4: ✅ High policy logic precision  
 - Claude 3 Opus: ✅ Robust macro-theory coherence
+
