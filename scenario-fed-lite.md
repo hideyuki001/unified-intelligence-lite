@@ -10,9 +10,6 @@ FRB announces a 25bp rate cut.
 USD Index surges +3%.
 Global equities diverge.
 
-yaml
-コードをコピーする
-
 ---
 
 ### 🔄 Recommended Evaluation Modules:
@@ -48,8 +45,6 @@ Reversion risk in risk parity portfolios
 The rate cut triggered mixed global reactions.
 FX behavior suggests distortion, not classical capital flow logic.
 
-yaml
-コードをコピーする
 
 ---
 
@@ -57,3 +52,4 @@ yaml
 - Designed to be paired with `is-lm-summary.md`  
 - Scenario phrasing should remain economic-journalistic  
 - Works well when processed with GPT-4 or Claude 3 under "expert macroeconomist" persona
+
