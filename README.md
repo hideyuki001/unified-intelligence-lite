@@ -37,7 +37,7 @@ Ideal for use with GPT-4, GPT-4o, GPT-5, Claude 3/4, and other advanced LLMs.
 Clone this repository or download the files directly:
 
 ```bash
-git clone https://github.com/hideyuki001/unified-intelligence-lite.git
+git clone https://github.com/hideyuki001/unified-intelligence-lite.git```
 
 No installation is required — simply open the .md files and copy-paste prompts into your preferred LLM interface (ChatGPT, Claude, etc.).
 
