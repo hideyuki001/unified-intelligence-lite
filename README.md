@@ -36,98 +36,89 @@ Ideal for use with GPT-4, GPT-4o, GPT-5, Claude 3/4, and other advanced LLMs.
 
 Clone this repository or download the files directly:
 
+```bash
 git clone https://github.com/hideyuki001/unified-intelligence-lite.git
+No installation is required — simply open the .md files and copy-paste prompts into your preferred LLM interface (ChatGPT, Claude, etc.).
 
-yaml
+🚀 Quick Start Example
+Open translation-qa.md
+
+Copy the instructions into ChatGPT or Claude
+
+Paste your translated text for evaluation
+
+Example prompt:
+
+sql
 コードをコピーする
-
-No installation is required — simply open the `.md` files and copy-paste prompts into your preferred LLM interface (ChatGPT, Claude, etc.).
-
----
-
-## 🚀 Quick Start Example
-
-1. Open `translation-qa.md`  
-2. Copy the instructions into ChatGPT or Claude  
-3. Paste your translated text for evaluation  
-
-**Example prompt:**
-
 System: You are a translation quality evaluator.
 User:
 "Original: 私は東京に行きました。
 Translation: I went to Tokyo."
+Expected Output:
 
-yaml
-コードをコピーする
+Semantic alignment: ✅
 
-**Expected Output:**
-- Semantic alignment: ✅  
-- Structural accuracy: ✅  
-- Neural fluency: Minor improvement possible  
+Structural accuracy: ✅
 
----
+Neural fluency: Minor improvement possible
 
-## 📁 Structure (Logical, not physical)
-
+📁 Structure (Logical, not physical)
 Although files appear in the root, they are conceptually grouped as:
 
-- `core/` → core reasoning templates  
-- `modules/` → domain-specific theory (e.g., IS-LM)  
-- `examples/` → sample use cases or input prompts  
-- `gpt/` → instruction templates for LLMs  
-- (plus `about-*.md` for design philosophy)
+core/ → core reasoning templates
 
----
+modules/ → domain-specific theory (e.g., IS-LM)
 
-## 📘 GPT Prompt Template (`gpt-instructions-template.txt`)
+examples/ → sample use cases or input prompts
 
-This file provides usage guidance for running Unified Intelligence modules on GPT/Claude.  
+gpt/ → instruction templates for LLMs
+
+(plus about-*.md for design philosophy)
+
+📘 GPT Prompt Template (gpt-instructions-template.txt)
+This file provides usage guidance for running Unified Intelligence modules on GPT/Claude.
 It includes:
 
-- Module selection descriptions  
-- System + User prompt format  
-- Output structure expectations  
-- Compatibility notes for GPT-4/4o/5 and Claude 3/4  
+Module selection descriptions
+
+System + User prompt format
+
+Output structure expectations
+
+Compatibility notes for GPT-4/4o/5 and Claude 3/4
 
 You can copy-paste this into any chat interface to start evaluating with selected modules.
 
----
+👥 Who Can Use This?
+Researchers: for structured translation QA and symbolic evaluation
 
-## 👥 Who Can Use This?
+Students: to learn economic theory reasoning with IS-LM examples
 
-- Researchers: for structured translation QA and symbolic evaluation  
-- Students: to learn economic theory reasoning with IS-LM examples  
-- General users: to refine writing, translations, or reasoning outputs  
+General users: to refine writing, translations, or reasoning outputs
 
----
-
-## 📎 Model Compatibility
-
+📎 Model Compatibility
 Tested with:
 
-- ✅ GPT-4 / GPT-4o / GPT-5 (OpenAI)  
-- ✅ Claude 3 Opus / Claude 4 (Anthropic)  
-- ⚠️ Other LLMs: May require minor prompt adaptation  
+✅ GPT-4 / GPT-4o / GPT-5 (OpenAI)
 
----
+✅ Claude 3 Opus / Claude 4 (Anthropic)
 
-## 📖 Learn More
+⚠️ Other LLMs: May require minor prompt adaptation
 
-For the **philosophy and design principles** behind this framework, see:  
-[about-unified-intelligence.md](about-unified-intelligence.md)
+📖 Learn More
+For the philosophy and design principles behind this framework, see:
+about-unified-intelligence.md
 
----
+🔗 Release
+The latest release is available here:
+👉 Unified Intelligence Lite v3.0 Release
 
-## ⚠️ Note
-
-This is a **Lite experimental version**.  
-It does not include all economic modules or advanced symbolic engines available in the full Unified Intelligence Framework.  
+⚠️ Note
+This is a Lite experimental version.
+It does not include all economic modules or advanced symbolic engines available in the full Unified Intelligence Framework.
 For full access, please contact the author or wait for the complete licensed release.
 
----
-
-## 📜 License
-
-This is a **limited experimental release**.  
+📜 License
+This is a limited experimental release.
 Reuse, redistribution, or extension requires author permission.
