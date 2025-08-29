@@ -53,6 +53,7 @@ System: You are a translation quality evaluator.
 User:
 "Original: 私は東京に行きました。
 Translation: I went to Tokyo."
+
 Expected Output:
 
 Semantic alignment: ✅
