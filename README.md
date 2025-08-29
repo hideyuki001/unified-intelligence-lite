@@ -49,8 +49,6 @@ Paste your translated text for evaluation
 
 Example prompt:
 
-sql
-コードをコピーする
 System: You are a translation quality evaluator.
 User:
 "Original: 私は東京に行きました。
