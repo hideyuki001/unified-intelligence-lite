@@ -38,6 +38,7 @@ Clone this repository or download the files directly:
 
 ```bash
 git clone https://github.com/hideyuki001/unified-intelligence-lite.git
+
 No installation is required — simply open the .md files and copy-paste prompts into your preferred LLM interface (ChatGPT, Claude, etc.).
 
 🚀 Quick Start Example
