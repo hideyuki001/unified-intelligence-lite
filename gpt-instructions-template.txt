@@ -1,12 +1,12 @@
-🧠 Unified Intelligence Lite v3.0 – Prompt Template
-For use with GPT-4, Claude 3, or other LLMs  
+🧠 Unified Intelligence Lite v3.0 – Prompt Template  
+For use with GPT-4, GPT-4o, GPT-5, Claude 3/4, or other LLMs  
 Purpose: Symbolic evaluation, translation QA, and macroeconomic analysis  
 
 ──────────────────────────────
 
 🔷 Choose a module to load (one at a time):
 
-→ poetic-core.md
+→ poetic-core.md  
 Extract symbolic or metaphorical essence from poetic language.  
 Ideal for literary QA, figurative compression, or metaphor mining.
 
@@ -38,15 +38,6 @@ Use [MODULE_NAME] to evaluate and return structured insights.
 
 ──────────────────────────────
 
-📎 Tips:
-
-- Use with Claude 3 Opus or GPT-4 for best accuracy  
-- Combine with recursive-qa.md for self-checking outputs  
-- All modules support symbolic alignment scoring  
-- Outputs are markdown-compatible for documentation
-
-──────────────────────────────
-
 🧪 Sample Input (for is-lm-summary):
 
 """
@@ -58,3 +49,10 @@ USD rises. Equities diverge globally.
 - IS/LM interpretation with shock direction  
 - Interest rate/output impact  
 - Optional edge-case commentary
+
+──────────────────────────────
+
+📎 Compatibility:
+- GPT-4 / GPT-4o / GPT-5: ✅ Full compatibility  
+- Claude 3 Opus / Claude 4: ✅ Fully supported  
+- Other frontier LLMs with CoT capability: ⚠️ May require adjustment
