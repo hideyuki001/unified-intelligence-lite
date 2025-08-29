@@ -1,0 +1,60 @@
+🧠 Unified Intelligence Lite v3.0 – Prompt Template
+For use with GPT-4, Claude 3, or other LLMs  
+Purpose: Symbolic evaluation, translation QA, and macroeconomic analysis  
+
+──────────────────────────────
+
+🔷 Choose a module to load (one at a time):
+
+→ poetic-core.md
+Extract symbolic or metaphorical essence from poetic language.  
+Ideal for literary QA, figurative compression, or metaphor mining.
+
+→ translation-qa.md  
+Evaluate translation quality using semantic, structural, and neural metrics.  
+Supports auto-alignment, CoT critique, and partial score correction.
+
+→ recursive-qa.md  
+Assess any model output recursively using CoT + self-critique loop.  
+Designed for translation, summarization, and multi-step reasoning outputs.
+
+→ is-lm-summary.md  
+Interpret economic scenarios using IS-LM model logic.  
+Generates structured macroeconomic insights + identifies equilibrium shifts.
+
+──────────────────────────────
+
+📌 Prompt Format (Generic Example):
+
+System:  
+"You are a symbolic evaluation engine. Follow strict reasoning steps."
+
+User:  
+"""
+[Paste your input here: text, translation, GPT output, or economic scenario]
+
+Use [MODULE_NAME] to evaluate and return structured insights.
+"""
+
+──────────────────────────────
+
+📎 Tips:
+
+- Use with Claude 3 Opus or GPT-4 for best accuracy  
+- Combine with recursive-qa.md for self-checking outputs  
+- All modules support symbolic alignment scoring  
+- Outputs are markdown-compatible for documentation
+
+──────────────────────────────
+
+🧪 Sample Input (for is-lm-summary):
+
+"""
+The central bank cuts rates by 25bp.  
+USD rises. Equities diverge globally.  
+"""
+
+🧠 Expected Output:
+- IS/LM interpretation with shock direction  
+- Interest rate/output impact  
+- Optional edge-case commentary
