@@ -11,10 +11,10 @@ Includes selected economic theory modules for scenario-based reasoning.
 This repository provides a lightweight, modular version of the Unified Intelligence Framework v3.0.  
 It is designed to support:
 
-- Translation quality analysis (semantic + structural)
-- Symbolic reasoning and metaphor extraction
-- Recursive CoT-based evaluation of model outputs
-- Economic scenario scoring via IS-LM macro models
+- Translation quality analysis (semantic + structural)  
+- Symbolic reasoning and metaphor extraction  
+- Recursive CoT-based evaluation of model outputs  
+- Economic scenario scoring via IS-LM macro models  
 
 Ideal for use with GPT-4, GPT-4o, GPT-5, Claude 3/4, and other advanced LLMs.
 
@@ -27,7 +27,8 @@ Ideal for use with GPT-4, GPT-4o, GPT-5, Claude 3/4, and other advanced LLMs.
 - `recursive-qa.md` — Recursive Chain-of-Thought (CoT) evaluator  
 - `is-lm-summary.md` — Macroeconomic IS-LM module for scenario scoring  
 - `scenario-fed-lite.md` — Example input for economic reasoning  
-- `gpt-instructions-template.txt` — Prompt template for GPT/Claude-based use
+- `gpt-instructions-template.txt` — Prompt template for GPT/Claude-based use  
+- `about-unified-intelligence.md` — Design philosophy and cognitive framework overview  
 
 ---
 
@@ -46,9 +47,9 @@ No installation is required — simply open the `.md` files and copy-paste promp
 
 ## 🚀 Quick Start Example
 
-1. Open `translation-qa.md`
-2. Copy the instructions into ChatGPT or Claude
-3. Paste your translated text for evaluation
+1. Open `translation-qa.md`  
+2. Copy the instructions into ChatGPT or Claude  
+3. Paste your translated text for evaluation  
 
 **Example prompt:**
 
@@ -74,7 +75,8 @@ Although files appear in the root, they are conceptually grouped as:
 - `core/` → core reasoning templates  
 - `modules/` → domain-specific theory (e.g., IS-LM)  
 - `examples/` → sample use cases or input prompts  
-- `gpt/` → instruction templates for LLMs
+- `gpt/` → instruction templates for LLMs  
+- (plus `about-*.md` for design philosophy)
 
 ---
 
@@ -86,7 +88,7 @@ It includes:
 - Module selection descriptions  
 - System + User prompt format  
 - Output structure expectations  
-- Compatibility notes for GPT-4/4o/5 and Claude 3/4
+- Compatibility notes for GPT-4/4o/5 and Claude 3/4  
 
 You can copy-paste this into any chat interface to start evaluating with selected modules.
 
@@ -96,7 +98,7 @@ You can copy-paste this into any chat interface to start evaluating with selecte
 
 - Researchers: for structured translation QA and symbolic evaluation  
 - Students: to learn economic theory reasoning with IS-LM examples  
-- General users: to refine writing, translations, or reasoning outputs
+- General users: to refine writing, translations, or reasoning outputs  
 
 ---
 
@@ -106,7 +108,14 @@ Tested with:
 
 - ✅ GPT-4 / GPT-4o / GPT-5 (OpenAI)  
 - ✅ Claude 3 Opus / Claude 4 (Anthropic)  
-- ⚠️ Other LLMs: May require minor prompt adaptation
+- ⚠️ Other LLMs: May require minor prompt adaptation  
+
+---
+
+## 📖 Learn More
+
+For the **philosophy and design principles** behind this framework, see:  
+[about-unified-intelligence.md](about-unified-intelligence.md)
 
 ---
 
