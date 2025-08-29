@@ -31,14 +31,39 @@ Ideal for use with GPT-4, GPT-4o, GPT-5, Claude 3/4, and other advanced LLMs.
 
 ---
 
-## 🚀 How to Use
+## 🔧 Setup
 
-1. Choose a `.md` file suitable for your task (e.g., `translation-qa.md`)
-2. Load the content into an LLM (GPT-4, Claude 4, etc.)
-3. Input your text, question, or scenario
-4. Let the model process and return symbolic or recursive feedback
+Clone this repository or download the files directly:
 
-Each `.md` file contains ready-to-use prompts, instructions, and examples.
+git clone https://github.com/hideyuki001/unified-intelligence-lite.git
+
+yaml
+コードをコピーする
+
+No installation is required — simply open the `.md` files and copy-paste prompts into your preferred LLM interface (ChatGPT, Claude, etc.).
+
+---
+
+## 🚀 Quick Start Example
+
+1. Open `translation-qa.md`
+2. Copy the instructions into ChatGPT or Claude
+3. Paste your translated text for evaluation
+
+**Example prompt:**
+
+System: You are a translation quality evaluator.
+User:
+"Original: 私は東京に行きました。
+Translation: I went to Tokyo."
+
+yaml
+コードをコピーする
+
+**Expected Output:**
+- Semantic alignment: ✅  
+- Structural accuracy: ✅  
+- Neural fluency: Minor improvement possible  
 
 ---
 
@@ -67,6 +92,14 @@ You can copy-paste this into any chat interface to start evaluating with selecte
 
 ---
 
+## 👥 Who Can Use This?
+
+- Researchers: for structured translation QA and symbolic evaluation  
+- Students: to learn economic theory reasoning with IS-LM examples  
+- General users: to refine writing, translations, or reasoning outputs
+
+---
+
 ## 📎 Model Compatibility
 
 Tested with:
@@ -77,19 +110,15 @@ Tested with:
 
 ---
 
-## 📜 License
+## ⚠️ Note
 
-This is a **limited experimental release**.  
-If you plan to reuse, extend, or redistribute this framework, please:
-
-- Contact the original author  
-- Or wait for the full release with detailed license terms
+This is a **Lite experimental version**.  
+It does not include all economic modules or advanced symbolic engines available in the full Unified Intelligence Framework.  
+For full access, please contact the author or wait for the complete licensed release.
 
 ---
 
-## 🌐 Project Scope
+## 📜 License
 
-This version does **not** include full macroeconomic modules (e.g., VAR, risk parity), full symbolic reasoning stacks, or automated API integrations.
-
-For academic or enterprise use, inquire for access to the full version of Unified Intelligence Framework.
-
+This is a **limited experimental release**.  
+Reuse, redistribution, or extension requires author permission.
