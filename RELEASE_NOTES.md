@@ -1,59 +1,84 @@
-# 📝 Release Notes - Unified Intelligence Lite v3.0
+# 📝 Release Notes - Unified Intelligence Lite v3.0.1
 
-## 📦 Version: 3.0 (Limited Experimental Release)
-**Release Date:** 2025-08-29  
-**Status:** Public (restricted license)
-
----
-
-### 🚀 What's Included
-
-This release introduces the **Lite version** of the Unified Intelligence Framework, focused on lightweight modular reasoning tools for LLM environments.
-
-#### 🔹 Core Modules
-- `translation-qa.md`  
-　Translation quality evaluator using semantic/structural/neural axes  
-- `recursive-qa.md`  
-　Recursive Chain-of-Thought evaluator with self-critique capability  
-- `poetic-core.md`  
-　Symbolic/metaphorical core extractor for figurative language analysis  
-- `is-lm-summary.md`  
-　IS-LM-based macroeconomic scenario interpreter  
-- `scenario-fed-lite.md`  
-　Sample input format for IS-LM macro modeling
-
-#### 🔹 Prompt Template & Docs
-- `gpt-instructions-template.txt`  
-　Unified system/user prompt pattern for GPT/Claude-based execution  
-- `about-unified-intelligence.md`  
-　Framework philosophy & design principles  
-- `README.md`  
-　Usage overview and file guide
+## 📦 Version: 3.0.1 (Updated Release)
+**Release Date**: 2025-08-31  
+**Status**: Public (restricted license)
 
 ---
 
-### 🛠 Not Included in Lite Version
-- VAR-based economic modeling  
-- Risk parity and cross-asset modules  
-- Multimodal symbolic alignment  
-- Corpus-based alignment scoring  
-- Automatic CoT regeneration pipelines
+## ✅ What’s Updated
 
-These are reserved for the full version.
-
----
-
-### 🧠 Key Design Philosophy
-- Structure over output  
-- Reasoning templates instead of static answers  
-- Symbolic compression and process visibility  
-- Compatible with GPT-4/4o/5 and Claude 3/4  
+- 🔄 Rewritten `README.md` with clear structure: purpose, usage, modules, examples
+- 🗂️ Module Overview added: status labels for all files (✅ Uploaded / 🕗 Planned)
+- ⚙️ Example prompts for all commands (`/qa-translate`, `/poeticize`, `/scenario`, etc.)
+- 📌 User segmentation clarified (translators, researchers, economists, LLM developers)
+- 📬 Contribution section added (CONTRIBUTING.md coming soon)
 
 ---
 
-### 📜 Licensing Note
-This is an **experimental and restricted release**.  
-Reuse or modification requires explicit author permission.
+## 📦 Version: 3.0 (Initial Lite Release)
+**Release Date**: 2025-08-29  
+**Status**: Public (restricted license)
 
-For inquiries: [tita65535@gmail.com]
+This release introduces the **Lite version** of the Unified Intelligence Framework — a modular toolkit for structured reasoning and evaluation in LLM environments like GPT-4/4o/5 and Claude 3/4.
 
+---
+
+### 🔹 Core Modules (✅ Uploaded)
+
+| File | Description |
+|------|-------------|
+| `translation-qa.md` | Translation quality evaluator (semantic + structural + neural axes) |
+| `recursive-qa.md` | Recursive Chain-of-Thought (CoT) evaluator with self-critique |
+| `poetic-core.md` | Symbolic/metaphorical pattern extractor |
+| `is-lm-summary.md` | IS-LM-based macroeconomic reasoning module |
+| `scenario-fed-lite.md` | Sample economic input prompt |
+| `gpt-instructions-template.txt` | Unified prompt template for GPT/Claude usage |
+| `about-unified-intelligence.md` | Design philosophy and cognitive principles |
+| `README.md` | Usage guide and file documentation |
+
+---
+
+### 🛠 Modules Not Yet Included (🕗 Planned)
+
+These modules are mentioned in the README as “Planned” and will be added in future releases:
+
+| Module | Role |
+|--------|------|
+| `var-model.md` | Multi-asset correlation analysis via VAR modeling |
+| `risk-parity.md` | Correlation breakdown & risk diversification evaluator |
+| `symbolic-cascade.md` | Symbolic chain preservation & coherence analysis |
+| `unified-output-template.md` | Unified output format (Markdown + JSON) |
+| `quality-cascade.md` | Scoring integration for BLEU, ROUGE, structure, symbolism |
+
+These are *planned* for future versions of the Lite or Full Framework.
+
+---
+
+### ❌ Advanced Features Reserved for Full Version
+
+The following are **not included in Lite** and are part of the **Full Unified Intelligence Framework** (v3.0 internal prototype):
+
+- 🧠 **Multimodal symbolic alignment** (image × language symbolic pairing)
+- 📊 **Corpus-based consistency scoring** (BLEU, ROUGE, syntactic overlap on aligned datasets)
+- 🔁 **Automatic CoT regeneration pipelines** (recursive Chain-of-Thought rewriting)
+- 🧭 **Knowledge-Guided Prompting** (integrating external knowledge bases like Wikidata)
+- 🤖 **Multi-model consensus judgment engine** (LLM arbitration via GPT × Claude × Gemini)
+
+---
+
+## 🧠 Design Philosophy
+
+- 🧩 *Structure over Output*: Focus on process visibility and reasoning quality, not just answer correctness
+- 🌐 *Symbolic Compression*: Surface metaphor and symbolic logic from abstract language
+- 🔁 *Recursive Verification*: Enable looped CoT validation and self-evaluation
+- 🤖 *LLM Compatibility*: Designed for GPT-4, GPT-4o, GPT-5, Claude 3/4
+
+---
+
+## 📜 License & Contact
+
+This is a **limited experimental release** under a restricted license.  
+Reuse, modification, or redistribution requires explicit author permission.
+
+📬 For inquiries: [tita65535@gmail.com]
