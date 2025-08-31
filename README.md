@@ -1,125 +1,112 @@
-# Unified Intelligence Lite v3.0
+🧠 Unified Intelligence Lite v3.0
 
-Lite version of the Unified Intelligence Framework:  
-Core structure for translation QA, symbolic extraction, and recursive evaluation.  
-Includes selected economic theory modules for scenario-based reasoning.
+Compact cognitive framework for translation QA, symbolic reasoning, recursive evaluation, and macroeconomic scenario scoring.
 
----
+🎯 Purpose: Why the Lite Version?
 
-## 🎯 Purpose
+This repository provides a compact, modular subset of the full Unified Intelligence Framework v3.0, optimized for:
 
-This repository provides a lightweight, modular version of the Unified Intelligence Framework v3.0.  
-It is designed to support:
+🧪 Translation quality evaluation (semantic + structural)
 
-- Translation quality analysis (semantic + structural)  
-- Symbolic reasoning and metaphor extraction  
-- Recursive CoT-based evaluation of model outputs  
-- Economic scenario scoring via IS-LM macro models  
+🧠 Symbolic reasoning & metaphor chain detection
 
-Ideal for use with GPT-4, GPT-4o, GPT-5, Claude 3/4, and other advanced LLMs.
+🔁 Recursive evaluation via Chain-of-Thought (CoT)
 
----
+💹 Macroeconomic scenario scoring using IS-LM theory
 
-## 📦 Included Files
+It is designed for quick use in advanced LLM interfaces (GPT-4/o/5, Claude 3/4) with zero setup.
 
-- `poetic-core.md` — Symbolic metaphor extraction engine  
-- `translation-qa.md` — Translation quality evaluator (semantic + structural)  
-- `recursive-qa.md` — Recursive Chain-of-Thought (CoT) evaluator  
-- `is-lm-summary.md` — Macroeconomic IS-LM module for scenario scoring  
-- `scenario-fed-lite.md` — Example input for economic reasoning  
-- `gpt-instructions-template.txt` — Prompt template for GPT/Claude-based use  
-- `about-unified-intelligence.md` — Design philosophy and cognitive framework overview  
+🗂️ Module Overview
+Module	Description	Status
+translation-qa.md	Structural & semantic translation quality evaluator	✅ Uploaded
+poetic-core.md	Symbolic & metaphor extraction engine	✅ Uploaded
+recursive-qa.md	Recursive CoT evaluator	✅ Uploaded
+is-lm-summary.md	IS-LM macroeconomic scoring module	✅ Uploaded
+scenario-fed-lite.md	Sample prompt for scenario scoring	✅ Uploaded
+gpt-instructions-template.txt	Instruction template for GPT/Claude	✅ Uploaded
+about-unified-intelligence.md	Framework philosophy & cognitive overview	✅ Uploaded
+var-model.md	Multi-asset correlation analysis (VAR)	🕗 Planned
+risk-parity.md	Risk parity & correlation breakdown evaluator	🕗 Planned
+symbolic-cascade.md	Symbolic chain preservation & coherence evaluator	🕗 Planned
+unified-output-template.md	Unified output format (Markdown + JSON)	🕗 Planned
+quality-cascade.md	BLEU/ROUGE + structure/symbol integration scorer	🕗 Planned
+⚙️ Core Commands & Prompt Examples
 
----
+All commands are promptable in GPT/Claude. Copy & paste ready.
 
-## 🔧 Setup
+🔹 Translation QA
+/qa-translate "Original: 私は東京に行きました。 Translation: I went to Tokyo."
+--structural-verify --neural-alignment
 
-Clone this repository or download the files directly:
+🔹 Symbolic Reasoning
+/poeticize "The market trembles like a wounded animal."
+--delta-S=0.7 --symbolic-palette
 
-```bash
+🔹 Economic Scenario Analysis
+/scenario "Fed cuts 25bp, DXY+3%, BTC-5%"
+--synapse-mode --theory-bias --temporal-projection
+
+📌 What This Framework Can Do
+Capability	Input	Output
+✅ Translation QA	Original + Translation	Semantic ✓ / Structural ✓ / Alignment Score
+✅ Symbolic Extraction	Metaphoric Text	Symbol Tags + ΔS + Symbolic Cascade (Planned)
+✅ Economic Reasoning	Policy Scenario	IS-LM Score + FX/Macro Bias
+✅ Recursive QA	Model Output	CoT Chain Trace + Validity Judgement
+🕗 Unified Scoring	Multi-layered Output	Quality Matrix + Symbolic + Theory Bias
+🚀 Quick Start
+
+Clone the repository:
+
 git clone https://github.com/hideyuki001/unified-intelligence-lite.git
-```
 
-No installation is required — simply open the .md files and copy-paste prompts into your preferred LLM interface (ChatGPT, Claude, etc.).
 
-🚀 Quick Start Example
-Open translation-qa.md
+Open any .md file in your editor or paste prompts into GPT/Claude.
 
-Copy the instructions into ChatGPT or Claude
+Use gpt-instructions-template.txt for system prompts & module options.
 
-Paste your translated text for evaluation
+📁 Conceptual Structure
 
-Example prompt:
+Although all .md files are in the root, conceptually they are grouped as:
 
-System: You are a translation quality evaluator.
-User:
-"Original: 私は東京に行きました。
-Translation: I went to Tokyo."
+core/        → Core evaluators (QA, CoT, Symbolic)
+modules/     → Domain models (econ, symbolic cascade)
+examples/    → Prompt test cases and walkthroughs
+gpt/         → Instruction templates for LLM interfaces
+about/       → Design philosophy and framework overview
 
-Expected Output:
+👥 Who Is This For?
 
-Semantic alignment: ✅
+Translators: for structured semantic + structural evaluation
 
-Structural accuracy: ✅
+Researchers: for CoT traceability and symbolic abstraction
 
-Neural fluency: Minor improvement possible
+Economists / Policy Analysts: for scenario testing
 
-📁 Structure (Logical, not physical)
-Although files appear in the root, they are conceptually grouped as:
-
-core/ → core reasoning templates
-
-modules/ → domain-specific theory (e.g., IS-LM)
-
-examples/ → sample use cases or input prompts
-
-gpt/ → instruction templates for LLMs
-
-(plus about-*.md for design philosophy)
-
-📘 GPT Prompt Template (gpt-instructions-template.txt)
-This file provides usage guidance for running Unified Intelligence modules on GPT/Claude.
-It includes:
-
-Module selection descriptions
-
-System + User prompt format
-
-Output structure expectations
-
-Compatibility notes for GPT-4/4o/5 and Claude 3/4
-
-You can copy-paste this into any chat interface to start evaluating with selected modules.
-
-👥 Who Can Use This?
-Researchers: for structured translation QA and symbolic evaluation
-
-Students: to learn economic theory reasoning with IS-LM examples
-
-General users: to refine writing, translations, or reasoning outputs
+LLM Developers: for evaluating and refining model outputs
 
 📎 Model Compatibility
-Tested with:
+Model	Status
+✅ GPT-4 / GPT-4o / GPT-5	Fully Compatible
+✅ Claude 3 / 4	Fully Compatible
+⚠️ Other LLMs	May require prompt adaptation
+🔖 License & Notice
 
-✅ GPT-4 / GPT-4o / GPT-5 (OpenAI)
-
-✅ Claude 3 Opus / Claude 4 (Anthropic)
-
-⚠️ Other LLMs: May require minor prompt adaptation
+This is an experimental Lite release under a limited license.
+For reuse, redistribution, or full framework access, please contact the author.
 
 📖 Learn More
-For the philosophy and design principles behind this framework, see:
-about-unified-intelligence.md
 
-🔗 Release
-The latest release is available here:
-👉 Unified Intelligence Lite v3.0 Release
+about-unified-intelligence.md — design philosophy, symbolic structure
 
-⚠️ Note
-This is a Lite experimental version.
-It does not include all economic modules or advanced symbolic engines available in the full Unified Intelligence Framework.
-For full access, please contact the author or wait for the complete licensed release.
+gpt-instructions-template.txt — module prompt definitions
 
-📜 License
-This is a limited experimental release.
-Reuse, redistribution, or extension requires author permission.
+Future modules in progress: VAR, Symbolic Cascade, Quality Integration
+
+✅ Maintained by: hideyuki001
+
+📬 For questions, open an Issue or message the maintainer.
+
+💡 Contribution Welcome (Soon)
+
+📥 CONTRIBUTING.md and prompt validation templates are coming soon.
+Feel free to suggest examples, modules, or enhancements.
