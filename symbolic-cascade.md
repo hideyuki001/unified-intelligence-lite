@@ -1,44 +1,36 @@
-# 🟪 Symbolic Cascade モジュール（Lite版）
+# 🟪 Symbolic Cascade Module (Lite Version)
 
-**メタファー・象徴・比喩構造の連鎖**とその**一貫性・保存性・詩的調和**を分析するモジュールです。
-
----
-
-## 🎯 モジュールの目的
-
-- 象徴的な表現が時間・空間・意味の中で連鎖しているかを検出  
-- 初期の象徴が後の文脈で保存・拡張されているかを分析  
-- 一貫性と詩的整合性を数値スコアで可視化
+A module for analyzing the **chain of metaphors, symbols, and figurative structures**, focusing on their **coherence, preservation, and poetic harmony** across a passage.
 
 ---
 
-## 🧪 使用例
+## 🎯 Module Objectives
+
+- Detect whether symbolic expressions are **linked across time, space, and semantic flow**  
+- Analyze how **initial symbols are preserved or transformed** within later context  
+- Visualize **poetic and symbolic coherence** through quantitative scoring
+
+---
+
+## 🧪 Usage Example
 
 ```bash
 /poeticize "The city breathes with iron lungs and neon veins." --symbolic-cascade
+📊 Output Fields
+Field	Description
+Symbol Tags	Extracted symbolic tags (e.g., city, machine, life)
+Cascade Depth	Depth of metaphorical layering (e.g., 2 levels)
+Preservation	Degree of continuity with initial symbols (%)
+Coherence Score	Poetic and symbolic coherence score (0–100)
 
----
+🧠 Notes
+This module is built upon poetic-core.md, and is designed to evaluate
+how symbols are preserved, transformed, and propagated within textual context.
 
-## 📊 出力項目例
+Tracks how metaphoric expressions unfold across temporal and spatial axes
 
-| 項目 | 説明 |
-|------|------|
-| **Symbol Tags** | 検出された象徴タグ（例：都市、機械、生命） |
-| **Cascade Depth** | メタファーの階層深度（例：2段階） |
-| **Preservation** | 初期象徴との一致度（％） |
-| **Coherence Score** | 詩的連続性・象徴的一貫性（スコア：0〜100） |
+Identifies symbolic leaps or disruptions when multiple metaphor layers converge
 
----
+Especially effective for testing the symbolic coherence of creative outputs from LLMs
 
-## 🧠 補足
-
-このモジュールは `poetic-core.md` を基盤に設計され、  
-**象徴がどのように文脈内で保存・変化・連鎖していくか**を評価します。
-
-- 比喩表現が時間軸や空間軸でどう展開するかを分析  
-- 複数の象徴が統合される場合、意味の「飛躍」や「断絶」も可視化します  
-- 特に LLM が生成する創造的な出力の**象徴的一貫性テスト**に有効です
-
-> ⚠ スコアは象徴解釈の参考値であり、定量評価に依存しすぎないよう注意してください。
-
----
+⚠ Scores are indicative and interpretive—avoid over-reliance on quantification for poetic meaning.
