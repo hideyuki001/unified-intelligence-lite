@@ -1,37 +1,30 @@
-# 🟦 Risk Parity モジュール（Lite版）
+# 🟦 Risk Parity Module (Lite Version)
 
-マルチアセットポートフォリオにおける**リスクパリティ評価**と、**相関崩壊の検出**を目的としたコンパクトエンジンです。
-
----
-
-## 🎯 モジュールの目的
-
-- 資産ごとのリスク寄与度（Risk Contribution）分析  
-- 相関構造の不安定化（Correlation Breakdown）警告  
-- 簡易的リスクスコア出力によるポートフォリオ監視
+A compact module designed for evaluating **risk parity in multi-asset portfolios** and detecting potential **correlation breakdowns**.
 
 ---
 
-## 🧪 使用例
+## 🎯 Module Objectives
+
+- Analyze **risk contribution** by asset  
+- Detect early signs of **correlation instability** in asset relationships  
+- Output simplified **risk scoring** for ongoing portfolio monitoring
+
+---
+
+## 🧪 Usage Example
 
 ```bash
 /risk-parity "Portfolio: BTC 30%, SPX 40%, Bonds 30%" --correlation-breakdown-alert
+📊 Output Fields
+Field	Description
+Risk Contribution	Risk contribution per asset (%)
+Pairwise Correlation	Correlation coefficients between asset pairs
+Breakdown Risk	Estimated probability of correlation breakdown (0.00–1.00)
+Alert Triggers	Signals for instability, e.g., correlation collapse or volatility spike
 
----
+🧠 Notes
+This module does not rely on full VAR modeling. It uses simplified variance and correlation calculations
+to provide rapid assessments of portfolio balance and structural risk.
 
-## 📊 出力項目例
-
-| 項目 | 説明 |
-|------|------|
-| **Risk Contribution** | 各資産のリスク寄与率（％） |
-| **Pairwise Correlation** | 資産間の相関係数一覧 |
-| **Breakdown Risk** | 相関崩壊の確率スコア（0.00〜1.00） |
-| **警告トリガー** | 相関崩壊・ボラティリティ急増等のシグナル |
-
----
-
-## 🧠 補足
-
-本モジュールはフルVARモデルには依存せず、簡易的な分散・相関計算を前提に構築されています。
-
-> ❗ 投資判断を目的とした利用は禁止されています。
+❗ This module is not intended for investment decisions and should be used for analytical purposes only.
