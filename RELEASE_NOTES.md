@@ -1,22 +1,25 @@
 # 📝 Release Notes - Unified Intelligence Lite v3.0.1
 
-## 📦 Version: 3.0.1 (Updated Release)
-**Release Date**: 2025-08-31  
+## 📦 Version: 3.0.1 (Updated Release)  
+**Release Date**: 2025-09-04  
 **Status**: Public (restricted license)
 
 ---
 
 ## ✅ What’s Updated
 
-- 🔄 Rewritten `README.md` with clear structure: purpose, usage, modules, examples
-- 🗂️ Module Overview added: status labels for all files (✅ Uploaded / 🕗 Planned)
-- ⚙️ Example prompts for all commands (`/qa-translate`, `/poeticize`, `/scenario`, etc.)
-- 📌 User segmentation clarified (translators, researchers, economists, LLM developers)
-- 📬 Contribution section added (CONTRIBUTING.md coming soon)
+- 🔄 Rewritten `README.md` with clear structure: purpose, usage, modules, examples  
+- 🗂️ Module Overview added: status labels for all files (✅ Uploaded / 🕗 Planned)  
+- ⚙️ Example prompts for all commands (`/qa-translate`, `/poeticize`, `/scenario`, etc.)  
+- 📌 User segmentation clarified (translators, researchers, economists, LLM developers)  
+- 📬 Contribution section added (CONTRIBUTING.md coming soon)  
+- ✅ **New Modules Uploaded**:  
+  - `risk-parity.md`: Risk contribution + correlation breakdown evaluator  
+  - `symbolic-cascade.md`: Symbolic chain + poetic coherence scoring engine (heartscape-inspired)
 
 ---
 
-## 📦 Version: 3.0 (Initial Lite Release)
+## 📦 Version: 3.0 (Initial Lite Release)  
 **Release Date**: 2025-08-29  
 **Status**: Public (restricted license)
 
@@ -36,6 +39,8 @@ This release introduces the **Lite version** of the Unified Intelligence Framewo
 | `gpt-instructions-template.txt` | Unified prompt template for GPT/Claude usage |
 | `about-unified-intelligence.md` | Design philosophy and cognitive principles |
 | `README.md` | Usage guide and file documentation |
+| `risk-parity.md` | Risk parity + correlation instability detection (NEW in 3.0.1) |
+| `symbolic-cascade.md` | Symbolic continuity & coherence evaluator (NEW in 3.0.1) |
 
 ---
 
@@ -46,8 +51,6 @@ These modules are mentioned in the README as “Planned” and will be added in 
 | Module | Role |
 |--------|------|
 | `var-model.md` | Multi-asset correlation analysis via VAR modeling |
-| `risk-parity.md` | Correlation breakdown & risk diversification evaluator |
-| `symbolic-cascade.md` | Symbolic chain preservation & coherence analysis |
 | `unified-output-template.md` | Unified output format (Markdown + JSON) |
 | `quality-cascade.md` | Scoring integration for BLEU, ROUGE, structure, symbolism |
 
@@ -69,9 +72,9 @@ The following are **not included in Lite** and are part of the **Full Unified In
 
 ## 🧠 Design Philosophy
 
-- 🧩 *Structure over Output*: Focus on process visibility and reasoning quality, not just answer correctness
-- 🌐 *Symbolic Compression*: Surface metaphor and symbolic logic from abstract language
-- 🔁 *Recursive Verification*: Enable looped CoT validation and self-evaluation
+- 🧩 *Structure over Output*: Focus on process visibility and reasoning quality, not just answer correctness  
+- 🌐 *Symbolic Compression*: Surface metaphor and symbolic logic from abstract language  
+- 🔁 *Recursive Verification*: Enable looped CoT validation and self-evaluation  
 - 🤖 *LLM Compatibility*: Designed for GPT-4, GPT-4o, GPT-5, Claude 3/4
 
 ---
